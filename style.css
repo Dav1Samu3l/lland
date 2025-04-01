@@ -1,3 +1,16 @@
+:root {
+    --cor-roxo: rgb(98, 32, 193);
+    --cor-azul-escuro: #005cff;
+    --cor-branco: #ffffff;
+    --cor-cinza-claro: #e6e7e9;
+    --cor-preto: #000;
+    --cor-cinza-escuro: #666;
+    --cor-azul-claro: #4177f6;
+    --cor-verde: #28a745;
+    --cor-azul-claro-2: #007bff;
+    --cor-azul-escuro-2: #0056b3;
+    --cor-cinza: #777;
+}
 
 html,
 body,
@@ -15,13 +28,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     overflow-y: auto;
-    /* Habilita apenas a rolagem vertical */
     -webkit-overflow-scrolling: touch;
-    /* Rolagem suave em mobile */
     margin-top: 80px;
-}
-main {
     margin-top: 160px; /* Adiciona espaço para compensar o menu fixo */
+
 }
 
 
@@ -42,9 +52,10 @@ img {
 }
 
 legend {
-    color: #000;
+    color: var(--cor-preto);
 }
 
+/* Estilo de inputs, textareas, select e buttons */
 input,
 textarea,
 select,
@@ -76,7 +87,7 @@ html {
 }
 
 #roxo {
-    background-color: rgb(98, 32, 193);
+    background-color: var(--cor-roxo);
     padding: 0.2rem;
     border-radius: 4px;
 }
@@ -86,15 +97,13 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #005cff;
-    color: white;
+    background-color: var(--cor-azul-escuro);
+    color: var(--cor-branco);
     text-align: center;
     padding: 0.5rem;
     font-size: 0.6rem;
     z-index: 1000;
-
     margin-bottom: -0.8rem;
-
 }
 
 /* Navbar */
@@ -103,7 +112,7 @@ html {
     top: 5%;
     width: 100%;
     height: 8%;
-    background-color: #ffffff;
+    background-color: var(--cor-branco);
     padding: 24px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 999;
@@ -147,7 +156,7 @@ html {
 
 .menu li a {
     text-decoration: none;
-    color: black;
+    color: var(--cor-preto);
     font-size: 1rem;
 }
 
@@ -167,11 +176,9 @@ html {
 
 #menu-2 li a {
     text-decoration: none;
-    color: black;
+    color: var(--cor-preto);
     font-size: 1rem;
 }
-
-    
 
 /* Produtos */
 .produtos {
@@ -181,8 +188,6 @@ html {
     width: 106%;
     height: 47rem;
 }
-
-
 
 /* Botão de busca */
 .btn-buscar-top {
@@ -198,14 +203,13 @@ html {
 }
 
 /* Carrossel */
-
-
-#lancamentos{
+#lancamentos {
     padding-left: 1%;
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 2px;
 }
+
 .carousel-container {
     top: 104px;
     width: 80%;
@@ -223,7 +227,7 @@ html {
     min-width: 200px;
     margin: 10px;
     padding: 20px;
-    background: lightgray;
+    background: var(--cor-cinza-claro);
     text-align: center;
     border-radius: 10px;
 }
@@ -232,8 +236,8 @@ html {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: black;
-    color: white;
+    background: var(--cor-preto);
+    color: var(--cor-branco);
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -248,33 +252,27 @@ html {
     right: 0;
 }
 
-
-
-
 .banner {
-    background-color: #e6e7e9;
+    background-color: var(--cor-cinza-claro);
     display: flex;
     justify-content: center;
     align-items: center;
-    
     height: 557px;
     width: 100%;
 }
 
-    .banner-content {
-        display: flex;
-        align-items: center;
-        width: 55%; /* ou um valor fixo, ex: 500px */
-        height: 300px; /* ou qualquer tamanho desejado */
-    }
-    
+.banner-content {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    height: 300px;
+}
+
 .image-container {
     flex: 1;
-    /* width: 100%; */
     max-height: 549px;
     object-fit: cover;
 }
-
 
 .image-container img {
     width: 100%;
@@ -283,9 +281,6 @@ html {
 }
 
 .text-container {
-    /* flex: 1;
-    text-align: left;
-    padding-left: 20px; */
     display: flex;
     flex: 1;
     text-align: left;
@@ -297,8 +292,6 @@ html {
     align-items: center;
 }
 
-
-
 h1 {
     font-size: 4rem;
     font-weight: bold;
@@ -306,16 +299,16 @@ h1 {
 }
 
 .super {
-    color: black;
+    color: var(--cor-preto);
 }
 
 .sale {
-    color: #666;
+    color: var(--cor-cinza-escuro);
 }
 
 .subtext {
     font-size: 1.2rem;
-    color: #4177f6;
+    color: var(--cor-azul-claro);
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -323,11 +316,8 @@ h1 {
 .discount {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #005CFF;
+    color: var(--cor-azul-escuro);
 }
-
-
-
 
 .container {
     display: flex;
@@ -343,18 +333,18 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     border: 1px solid #ddd;
-    background: #fff;
+    background: var(--cor-branco);
     text-align: center;
     position: relative;
-    padding-bottom: 20px; /* Garantir que o botão fique visível */
+    padding-bottom: 20px;
 }
 
 .novo {
     position: absolute;
     top: 10px;
     left: 10px;
-    background: #007bff;
-    color: #fff;
+    background: var(--cor-azul-claro-2);
+    color: var(--cor-branco);
     padding: 5px 10px;
     font-size: 12px;
     border-radius: 5px;
@@ -372,19 +362,19 @@ h1 {
 
 .info h3 {
     font-size: 16px;
-    color: #333;
+    color: var(--cor-preto);
     margin: 10px 0;
 }
 
 .preco {
-    color: #777;
+    color: var(--cor-cinza);
     font-size: 14px;
     text-decoration: line-through;
 }
 
 .desconto {
-    background: #28a745;
-    color: white;
+    background: var(--cor-verde);
+    color: var(--cor-branco);
     padding: 2px 5px;
     font-size: 12px;
     border-radius: 3px;
@@ -394,19 +384,19 @@ h1 {
 .preco-final {
     font-size: 18px;
     font-weight: bold;
-    color: #000;
+    color: var(--cor-preto);
     margin: 5px 0;
 }
 
 .parcelamento {
     font-size: 12px;
-    color: #555;
+    color: var(--cor-cinza-escuro);
 }
 
-.botao {
+.buton-card {
     display: block;
-    background: #007bff;
-    color: white;
+    background: var(--cor-azul-claro-2);
+    color: var(--cor-branco);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -416,43 +406,48 @@ h1 {
     transition: background-color 0.3s;
 }
 
-.botao:hover {
-    background-color: #0056b3;
+.buton-card:hover {
+    background-color: var(--cor-azul-escuro-2);
 }
-
 
 /* ----------------------------------------- */
 .banner2-content {
     display: flex;
     justify-content: center;
-    justify-content: center;
     align-items: center;
     height: 557px;
     width: 100%;
     margin-top: 213px;
-    background-color: white;
+    background-color: var(--cor-branco);
     margin-left: 36px;
 }
 
 .banner2-content img {
-    width: 100%; /* Ajuste de largura para que a imagem ocupe metade do espaço */
+    background-color: var(--cor-cinza-claro);
+
+    width: 100%;
     max-height: 545px;
     object-fit: cover;
-    background-color: #e6e7e9;
 }
 
 .banner2-text {
-    width: 487px; 
-    padding-left: 20px; /* Espaço entre imagem e texto */
+    width: 487px;
+    padding-left: 20px;
     text-align: left;
 }
 
 .banner2-text h1 {
-    
-    font-family: Nunito ;
+    font-family: Nunito;
     font-style: normal;
     margin: 0;
     padding: 0;
 }
 
-
+.banner3-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 557px;
+    width: 100%;
+    background: var(--cor-cinza-escuro);
+}
