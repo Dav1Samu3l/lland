@@ -420,9 +420,39 @@ h1 {
     background-color: #0056b3;
 }
 
+
+/* ----------------------------------------- */
+.banner2-content {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 557px;
+    width: 100%;
+    margin-top: 213px;
+    background-color: white;
+    margin-left: 36px;
+}
+
+.banner2-content img {
+    width: 100%; /* Ajuste de largura para que a imagem ocupe metade do espaço */
+    max-height: 545px;
+    object-fit: cover;
+    background-color: #e6e7e9;
+}
+
+.banner2-text {
+    width: 487px; 
+    padding-left: 20px; /* Espaço entre imagem e texto */
+    text-align: left;
+}
+
+.banner2-text h1 {
     
-
-
-
+    font-family: Nunito ;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
 
 
