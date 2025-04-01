@@ -1,0 +1,318 @@
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    /* Habilita apenas a rolagem vertical */
+    -webkit-overflow-scrolling: touch;
+    /* Rolagem suave em mobile */
+    margin-top: 80px;
+}
+main {
+    margin-top: 160px; /* Adiciona espaço para compensar o menu fixo */
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+legend {
+    color: #000;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: 110%;
+    line-height: 1.1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+    width: auto;
+    overflow: visible;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* --------------------------- */
+
+html {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#roxo {
+    background-color: rgb(98, 32, 193);
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+
+/* Topo fixo */
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #005cff;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    z-index: 1000;
+
+    margin-bottom: -0.8rem;
+
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 5%;
+    width: 100%;
+    height: 8%;
+    background-color: #ffffff;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.search-bar {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.logo img {
+    width: 242px;
+    height: 27px;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+/* Submenu */
+#menu-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    background-color: transparent;
+}
+
+#menu-2 li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#menu-2 li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+    
+
+/* Produtos */
+.produtos {
+    margin-top: 0;
+    padding: 2rem 0 0;
+    display: flex;
+    width: 106%;
+    height: 47rem;
+}
+
+
+
+/* Botão de busca */
+.btn-buscar-top {
+    width: 20px;
+    height: 22px;
+    background: url('http://www.devmedia.com.br/imagens/2013/buscar_grey.png') no-repeat;
+    cursor: pointer;
+    border: none;
+    transform: translateY(50%);
+    position: relative;
+    top: -11px;
+    left: -84px;
+}
+
+/* Carrossel */
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background: lightgray;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+
+
+.banner {
+    background-color: #e6e7e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 557px;
+    width: 100%;
+}
+
+    .banner-content {
+        display: flex;
+        align-items: center;
+        width: 55%; /* ou um valor fixo, ex: 500px */
+        height: 300px; /* ou qualquer tamanho desejado */
+    }
+    
+.image-container {
+    flex: 1;
+    /* width: 100%; */
+    max-height: 549px;
+    object-fit: cover;
+}
+
+
+.image-container img {
+    width: 100%;
+    max-height: 545px;
+    object-fit: cover;
+}
+
+.text-container {
+    /* flex: 1;
+    text-align: left;
+    padding-left: 20px; */
+    display: flex;
+    flex: 1;
+    text-align: left;
+    padding-top: 165px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.super {
+    color: black;
+}
+
+.sale {
+    color: #666;
+}
+
+.subtext {
+    font-size: 1.2rem;
+    color: #4177f6;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.discount {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #005CFF;
+}
+
