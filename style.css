@@ -30,7 +30,8 @@ main {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     margin-top: 80px;
-    margin-top: 160px; /* Adiciona espaço para compensar o menu fixo */
+    margin-top: 160px;
+    /* Adiciona espaço para compensar o menu fixo */
 
 }
 
@@ -44,6 +45,9 @@ h5,
 h6,
 p {
     margin-top: 0;
+}
+textarea{
+    font-family: Nunito
 }
 
 fieldset,
@@ -444,10 +448,67 @@ h1 {
 }
 
 .banner3-content {
+    background-color: var(--cor-cinza-claro);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 557px;
     width: 100%;
-    background: var(--cor-cinza-escuro);
+    margin-top: 213px;
+    margin-left: 36px;
+}
+.banner3-text{
+    
+    padding-right: 32px;
+    gap: 71px;
+    display: flex;
+    flex-direction: column;
+    border-right-width: 152px;
+    margin-right: 1px;
+    height: 692.812;
+    width: 439px;
+
+}
+.circulo{
+    display: flex;
+    flex-direction:column ;
+    gap: 57px;
+   
+}
+/* ------------------------------------------------------- */
+
+    
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .banner2-content, .banner3-content {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .banner2-text, .banner3-text {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .card {
+        min-width: 150px;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
 }
