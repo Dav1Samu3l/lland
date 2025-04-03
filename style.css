@@ -477,7 +477,67 @@ h1 {
 }
 /* ------------------------------------------------------- */
 
-    
+/* --------------------------------------------- */
+.banner4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 213px auto 0;
+    background-image: url("./img/b2623f6b33f45e480c729d0fd2363189.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner4-text  {
+    color: var(--cor-branco);
+    background-color: #005cff;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+}
+#banner4-text h1{
+    margin: 0;
+    padding: 0;
+    font-size:1.5rem;
+}
+
+
+
+
+
+
+/*     
+
+
+Font
+t
+Nunito
+Weigh
+t
+400
+Siz
+e
+30px
+Line
+ height
+140%
+Letter
+ spacing
+0%
+Horizontal
+ alignment
+Center
+Vertical
+ alignment
+Middle
+
 
 @media (max-width: 768px) {
     body {
@@ -511,4 +571,4 @@ h1 {
     .carousel-container {
         width: 100%;
     }
-}
+} */
