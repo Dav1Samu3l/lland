@@ -1,0 +1,110 @@
+
+#roxo {
+    background-color: var(--cor-roxo);
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--cor-azul-escuro);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    z-index: 1000;
+    margin-bottom: -0.8rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 2%;
+    width: 100%;
+    height: 25%;
+    background-color: var(--cor-branco);
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.search-bar {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.logo img {
+    width: 242px;
+    height: 27px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: var(--cor-preto);
+    font-size: 1rem;
+}
+
+#menu-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    background-color: transparent;
+}
+
+#menu-2 li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#menu-2 li a {
+    text-decoration: none;
+    color: var(--cor-preto);
+    font-size: 1rem;
+}
+
+.produtos {
+    margin-top: 0;
+    padding: 2rem 0 0;
+    display: flex;
+    width: 106%;
+    height: 47rem;
+}
+
+.btn-buscar-top {
+    width: 20px;
+    height: 22px;
+    background: url('http://www.devmedia.com.br/imagens/2013/buscar_grey.png') no-repeat;
+    cursor: pointer;
+    border: none;
+    transform: translateY(50%);
+    position: relative;
+    top: -11px;
+    left: -84px;
+}

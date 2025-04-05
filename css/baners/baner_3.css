@@ -1,0 +1,28 @@
+.banner3-content {
+    background-color: var(--cor-cinza-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 557px;
+    width: 100%;
+    margin-top: 213px;
+    margin-left: 36px;
+}
+.banner3-text{
+    
+    padding-right: 32px;
+    gap: 71px;
+    display: flex;
+    flex-direction: column;
+    border-right-width: 152px;
+    margin-right: 1px;
+    height: 692.812;
+    width: 439px;
+
+}
+.circulo{
+    display: flex;
+    flex-direction:column ;
+    gap: 57px;
+   
+}

@@ -1,0 +1,68 @@
+
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+form,
+fieldset,
+legend,
+img {
+    border: 0;
+}
+
+legend {
+    color: var(--cor-preto);
+}
+
+textarea {
+    font-family: Nunito;
+}
+
+/* Inputs, selects e botões */
+input,
+textarea,
+select,
+button {
+    font-size: 110%;
+    line-height: 1.1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+    width: auto;
+    overflow: visible;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 160px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}

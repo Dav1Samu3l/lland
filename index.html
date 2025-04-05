@@ -8,7 +8,16 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
     </style>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/carrosel.css">
+    <link rel="stylesheet" href="./css/baners/baner_1.css">
+    <link rel="stylesheet" href="./css/baners/baner_2.css">
+    <link rel="stylesheet" href="./css/baners/baner_3.css">
+    <link rel="stylesheet" href="./css/baners/baner_4.css">
+    <link rel="stylesheet" href=".//css/newsletter.css">
 </head>
 
 <header>
@@ -20,7 +29,7 @@
     <nav class="navbar">
         <div class="menu-container">
             <div class="logo">
-                <img src="img/image.png" alt="logo da empresa">
+                <img src="./img/Grupo 21089.png" alt="logo da empresa">
             </div>
             <div class="custom-word"></div>
             <input type="text" class="search-bar" placeholder="Digite aqui o que você procura">
@@ -67,7 +76,7 @@
 
 
 
-        <div class="carousel-container">
+        <section class="carousel-container">
 
             <h1 id="lancamentos">Lançamentos</h1>
             <button class="btn prev" onclick="moveCarousel(-1)">&#10094;</button>
@@ -232,9 +241,9 @@
 
             </div>
             <button class="btn next" onclick="moveCarousel(1)">&#10095;</button>
-        </div>
+        </section>
 
-        <div class="banner2-content">
+        <section class="banner2-content">
             <div>
                 <img src="./img/canecaAmostra.png" sizes="10px" alt="">
             </div>
@@ -250,9 +259,9 @@
                     reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
                     cupiditate beatae.</p>
             </div>
-        </div>
+        </section>
 
-        <div class="banner3-content">
+        <section class="banner3-content">
 
             <div class="circulo">
                 <img src="./img/Circulo e Icone.png" alt="">
@@ -293,8 +302,8 @@
                 <img src="./img/canecaMao.png" alt="">
             </div>
 
-        </div>
-        <div class="banner2-content">
+        </section>
+        <section class="banner2-content">
             <div>
                 <img src="./img/canecaAmostra.png" sizes="10px" alt="">
             </div>
@@ -310,8 +319,8 @@
                     reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
                     cupiditate beatae.</p>
             </div>
-        </div>
-        <div class="carousel-container">
+        </section>
+        <section class="carousel-container">
 
             <h1 id="lancamentos">Lançamentos</h1>
             <button class="btn prev" onclick="moveCarousel(-1)">&#10094;</button>
@@ -476,23 +485,119 @@
 
             </div>
             <button class="btn next" onclick="moveCarousel(1)">&#10095;</button>
-        </div>
+        </section>
 
-        <div class="banner4">
+        <section class="banner4">
             <div id="banner4-text">
                 <h1>Entre em contato conosco e verifique a disponibilidade para sua região!</h1>
             </div>
 
 
 
-        </div>
+        </section>
+
 
     </main>
+    <section class="newsletter-container">
+        <h2 class="newsletter-titulo">Cadastre-se na nossa Newsletter</h2>
+        <div class="rodape-container">
+            <form class="newsletter-form">
+                <input type="text" class="newsletter-input" placeholder="Digite seu nome">
+                <input type="email" class="newsletter-input" placeholder="Digite seu e-mail">
+                <div style="margin-top: 1rem;">
+                    <label style="color: var(--cor-clara); font-size: 0.875rem;">
+                        <input type="checkbox"> Estou de acordo com a Política de Privacidade
+                    </label>
+                </div>
+                <button type="submit" class="newsletter-botao">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+    <!-- <footer class="rodape">
+        <div class="rodape-container">
+            <div class="rodape-marca">
+                <h1 class="rodape-logo">AVANTI</h1>
+                <div class="rodape-social">
+                    <a href="#" class="rodape-social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="rodape-social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="rodape-social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="rodape-social-link"><i class="far fa-envelope"></i></a>
+                </div>
+            </div>
 
+            <div class="rodape-conteudo">
+                <div class="rodape-secao">
+                    <h3 class="rodape-secao-titulo">Institucional</h3>
+                    <ul class="rodape-lista">
+                        <li class="rodape-item"><a href="#" class="rodape-link">Sobre Nós</a></li>
+                        <li class="rodape-item"><a href="#" class="rodape-link">Nossas Lojas</a></li>
+                        <li class="rodape-item"><a href="#" class="rodape-link">Privacidade e Segurança</a></li>
+                        <li class="rodape-item"><a href="#" class="rodape-link">Termos e Condições</a></li>
+                    </ul>
+                </div>
 
+                <div class="rodape-secao">
+                    <h3 class="rodape-secao-titulo">Central de Ajuda</h3>
+                    <ul class="rodape-lista">
+                        <li class="rodape-item"><a href="#" class="rodape-link">Fale Conosco</a></li>
+                        <li class="rodape-item"><a href="#" class="rodape-link">Frete e Entrega</a></li>
+                        <li class="rodape-item"><a href="#" class="rodape-link">Trocas e Devoluções</a></li>
+                        <li class="rodape-item"><a href="#" class="rodape-link">Formas de Pagamento</a></li>
+                        <li class="rodape-item"><a href="#" class="rodape-link">FAQ</a></li>
+                    </ul>
+                </div>
 
+                <div class="rodape-secao">
+                    <h3 class="rodape-secao-titulo">Atendimento</h3>
+                    <div class="rodape-contato">
+                        <i class="fas fa-phone"></i>
+                        <span>(XX) 1234-5678</span>
+                    </div>
+                    <div class="rodape-contato">
+                        <i class="far fa-envelope"></i>
+                        <span>exemplo@exemplo.com.br</span>
+                    </div>
+                    <div class="rodape-contato">
+                        <i class="far fa-clock"></i>
+                        <div>
+                            <p style="font-weight: 600; margin-bottom: 0.25rem;">Horário de atendimento:</p>
+                            <p>Segunda a Sábado: 07h00 às 23h00</p>
+                            <p>Domingo e Feriados: 07h00 às 23h00</p>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
+                <div class="rodape-secao">
+                    <h3 class="rodape-secao-titulo">Formas de Pagamento</h3>
+                    <div class="rodape-pagamentos">
+                        <div class="rodape-pagamento">
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                        <div class="rodape-pagamento">
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                        <div class="rodape-pagamento">
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                        <div class="rodape-pagamento">
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                        <div class="rodape-pagamento">
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                        <div class="rodape-pagamento">
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rodape-inferior">
+                <p class="rodape-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
+        </div>
+    </footer> -->
 
 </body>
 <script src="script.js"></script>

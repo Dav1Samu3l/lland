@@ -1,0 +1,14 @@
+.newsletter-container{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+
+
+
+}
+
+.newsletter-form{
+    display: flex;
+    flex-direction:  row;
+
+}

@@ -1,0 +1,31 @@
+.banner2-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 557px;
+    width: 100%;
+    margin-top: 213px;
+    background-color: var(--cor-branco);
+    margin-left: 36px;
+}
+
+.banner2-content img {
+    background-color: var(--cor-cinza-claro);
+
+    width: 100%;
+    max-height: 545px;
+    object-fit: cover;
+}
+
+.banner2-text {
+    width: 487px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.banner2-text h1 {
+    font-family: Nunito;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}

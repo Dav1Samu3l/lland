@@ -1,0 +1,157 @@
+.banner {
+    background-color: var(--cor-cinza-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 557px;
+    width: 100%;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    height: 300px;
+}
+
+.image-container {
+    flex: 1;
+    max-height: 549px;
+    object-fit: cover;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 545px;
+    object-fit: cover;
+}
+
+.text-container {
+    display: flex;
+    flex: 1;
+    text-align: left;
+    padding-top: 165px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.super {
+    color: var(--cor-preto);
+}
+
+.sale {
+    color: var(--cor-cinza-escuro);
+}
+
+.subtext {
+    font-size: 1.2rem;
+    color: var(--cor-azul-claro);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.discount {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--cor-azul-escuro);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background: var(--cor-branco);
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.novo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--cor-azul-claro-2);
+    color: var(--cor-branco);
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info h3 {
+    font-size: 16px;
+    color: var(--cor-preto);
+    margin: 10px 0;
+}
+
+.preco {
+    color: var(--cor-cinza);
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.desconto {
+    background: var(--cor-verde);
+    color: var(--cor-branco);
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.preco-final {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-preto);
+    margin: 5px 0;
+}
+
+.parcelamento {
+    font-size: 12px;
+    color: var(--cor-cinza-escuro);
+}
+
+.buton-card {
+    display: block;
+    background: var(--cor-azul-claro-2);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+    transition: background-color 0.3s;
+}
+
+.buton-card:hover {
+    background-color: var(--cor-azul-escuro-2);
+}
