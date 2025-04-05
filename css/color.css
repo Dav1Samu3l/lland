@@ -1,6 +1,6 @@
 :root {
     --cor-roxo: rgb(98, 32, 193);
-    --cor-azul-escuro: #005cff;
+    --cor-azul-escuro: rgba(0, 92, 255, 1);
     --cor-branco: #ffffff;
     --cor-cinza: #777;
     --cor-cinza-claro: #e6e7e9;
@@ -11,4 +11,5 @@
     --cor-azul-claro-2: #007bff;
     --cor-azul-escuro-2: #0056b3;
 }
+
 

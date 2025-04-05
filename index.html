@@ -7,6 +7,7 @@
     <title>Página de Vendas</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
     </style>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="style.css">
@@ -17,7 +18,7 @@
     <link rel="stylesheet" href="./css/baners/baner_2.css">
     <link rel="stylesheet" href="./css/baners/baner_3.css">
     <link rel="stylesheet" href="./css/baners/baner_4.css">
-    <link rel="stylesheet" href=".//css/newsletter.css">
+    <link rel="stylesheet" href="./css/newsletter.css">
 </head>
 
 <header>
@@ -498,23 +499,33 @@
 
 
     </main>
-    <section class="newsletter-container">
-        <h2 class="newsletter-titulo">Cadastre-se na nossa Newsletter</h2>
-        <div class="rodape-container">
-            <form class="newsletter-form">
-                <input type="text" class="newsletter-input" placeholder="Digite seu nome">
-                <input type="email" class="newsletter-input" placeholder="Digite seu e-mail">
-                <div style="margin-top: 1rem;">
-                    <label style="color: var(--cor-clara); font-size: 0.875rem;">
-                        <input type="checkbox"> Estou de acordo com a Política de Privacidade
-                    </label>
+    <footer class="footer">
+        <section class="newsletter-container">
+            <div class="newsletter-titulo">
+
+
+                <h4>Cadastre-se na nossa <span class="newsletter-titulo-destaque">newsletter</span></h4>
+            </div>
+            <div class="newsletter-form-container">
+                <div class="newsletter-form">
+
+
+                    <form>
+                        <input type="text" class="newsletter-input" placeholder="Digite seu nome">
+                        <input type="email" class="newsletter-input" placeholder="Digite seu e-mail">
+                        <div style="margin-top: 1rem;">
+                            <label>
+                                <input type="checkbox"> Estou de acordo com a Política de Privacidade
+                            </label>
+                        </div>
+                        <button type="submit" class=" newsletter-botao">Cadastrar</button>
+                    </form>
                 </div>
-                <button type="submit" class="newsletter-botao">Cadastrar</button>
-            </form>
-        </div>
-    </section>
+            </div>
+        </section>
+    </footer>
     <!-- <footer class="rodape">
-        <div class="rodape-container">
+                <div class="rodape-container">
             <div class="rodape-marca">
                 <h1 class="rodape-logo">AVANTI</h1>
                 <div class="rodape-social">
@@ -596,8 +607,8 @@
                 <p class="rodape-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh
                     euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
             </div>
-        </div>
-    </footer> -->
+        </div> -->
+
 
 </body>
 <script src="script.js"></script>
