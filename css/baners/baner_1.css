@@ -3,21 +3,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 557px;
     width: 100%;
+    overflow: hidden; 
+    padding-bottom: 3%;
 }
 
 .banner-content {
     display: flex;
     align-items: center;
     width: 55%;
-    height: 300px;
+    height: 300px; 
+    position: relative; 
 }
 
 .image-container {
     flex: 1;
-    max-height: 549px;
-    object-fit: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--cor-cinza-claro); 
 }
 
 .image-container img {

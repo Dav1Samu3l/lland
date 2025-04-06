@@ -1,7 +1,58 @@
-.intiticional-container{
+.intiticional-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--cor-cinza-claro-2);
+    padding: 2%;
+    padding: 110px;
+    margin-top: 2%;
+    gap: 2%;
+    gap: 6%;
+}
+
+ul.rodape-lista {
+
+    padding: 0px;
+}
+
+.intiticional-container li a {
+    text-decoration: none;
+    color: var(--cor-preto);
+}
+
+.intiticional-container li a:hover {
+    text-decoration: underline;
+}
+
+.intiticional-container li:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.pagaments {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-marca {
+    width: 100%;
+    width: 194px;
+    height: 93px;
+    top: 64px;
+    left: 396px;
+    margin: 0;
+}
+
+.rodape-social {
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
-    
+    padding-top: 20%;
 }
+
+@media (max-width: 768px) {
+/*******  b02da73d-8124-4b3d-8762-1db0b0bbce3c  *******/y
