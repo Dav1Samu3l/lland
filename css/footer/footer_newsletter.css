@@ -59,21 +59,20 @@
     width: 280px;
     height: 48px;
     border-radius: 8px;
-    padding: 0 12px; /* Padding horizontal apenas */
+    padding: 0 12px; 
     box-sizing: border-box;
     font-size: 16px;
-    border: 1px solid #ccc; /* Adicione uma borda para melhor visualização */
-    margin-bottom: 12px; /* Espaço entre os campos */
+    border: 1px solid #ccc; 
+    margin-bottom: 12px;
   }
   
-  /* Estilo quando o input está em foco */
+  
   .newsletter-input:focus {
     outline: none;
-    border-color: #0066cc; /* Cor quando selecionado */
-    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2); /* Efeito de glow */
+    border-color: #0066cc; 
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
   }
   
-  /* Opcional: estilo para o checkbox (já que ele não deve ter as mesmas dimensões) */
   .newsletter-form input[type="checkbox"] {
     width: auto;
     height: auto;
@@ -90,4 +89,17 @@
     min-height: 48px;
     padding: 10px;
     box-sizing: border-box;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.institucional {
+  font-size: 14px;
+  color: #666;
 }

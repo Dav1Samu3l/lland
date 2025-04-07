@@ -9,7 +9,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-
     </style>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="style.css">
@@ -20,50 +19,51 @@
     <link rel="stylesheet" href="./css/baners/baner_2.css">
     <link rel="stylesheet" href="./css/baners/baner_3.css">
     <link rel="stylesheet" href="./css/baners/baner_4.css">
-    <link rel="stylesheet" href="./css/footer_newsletter.css">
-    <link rel="stylesheet" href="./css/footer_intituicioanal.css">
+    <link rel="stylesheet" href="./css/footer/footer_newsletter.css">
+    <link rel="stylesheet" href="./css/footer/footer_intituicioanal.css">
+    <link rel="stylesheet" href="./css/footer/footer_parceiros.css">
 </head>
 
-<header>
-    <div class="top-bar">
-        <p>Ganhe <a id="roxo">R$10,00</a> de desconto no seu primeiro pedido. Use o cupom
-            <strong>DESCONTO10</strong>
-        </p>
-    </div>
-    <nav class="navbar">
-        <div class="menu-container">
-            <div class="logo">
-                <img src="./img/Grupo 21089.png" alt="logo Avanti">
+<body>
+
+    <header>
+        <div class="top-bar">
+            <p>Ganhe <a id="roxo">R$10,00</a> de desconto no seu primeiro pedido. Use o cupom
+                <strong>DESCONTO10</strong>
+            </p>
+        </div>
+        <nav class="navbar">
+            <div class="menu-container">
+                <div class="logo">
+                    <img src="./img/Grupo 21089.png" alt="logo Avanti">
+                </div>
+                <div class="custom-word"></div>
+                <input type="text" class="search-bar" placeholder="Digite aqui o que você procura">
+                <div><button class="btn-buscar-top" type="submit"></button></div>
+                <div>
+                    <ul class="menu">
+                        <img src="./img/pessoa.png" alt="Ícone" width="24" height="24">
+                        <li><a href="#conta">Olá,<br> Nome cliente!</a></li>
+                        <img src="./img/vista-lateral-vazia-do-carrinho-de-compras (1).png" width="24" height="24"
+                            alt=" carrinho de compras">
+                    </ul>
+                </div>
             </div>
-            <div class="custom-word"></div>
-            <input type="text" class="search-bar" placeholder="Digite aqui o que você procura">
-            <div><button class="btn-buscar-top" type="submit"></button></div>
-            <div>
-                <ul class="menu">
-                    <img src="./img/pessoa.png" alt="Ícone" width="24" height="24">
-                    <li><a href="#conta">Olá,<br> Nome cliente!</a></li>
-                    <img src="./img/vista-lateral-vazia-do-carrinho-de-compras (1).png" width="24" height="24"
-                        alt=" carrinho de compras">
+            <div id="menu-2">
+                <ul>
+                    <li><a href="#conta">Todas as categorias</a></li>
+                    <li><a href="#carrinho">Departamento</a></li>
+                    <li><a href="#carrinho">Departamento</a></li>
+                    <li><a href="#carrinho">Departamento</a></li>
+                    <li><a href="#carrinho">Departamento</a></li>
+                    <li><a href="#carrinho">Departamento</a></li>
+                    <li><a href="#carrinho">Departamento</a></li>
+                    <li><a href="#carrinho">Departamento</a></li>
+                    <li><a href="#carrinho">Departamento</a></li>
                 </ul>
             </div>
-        </div>
-        <div id="menu-2">
-            <ul>
-                <li><a href="#conta">Todas as categorias</a></li>
-                <li><a href="#carrinho">Departamento</a></li>
-                <li><a href="#carrinho">Departamento</a></li>
-                <li><a href="#carrinho">Departamento</a></li>
-                <li><a href="#carrinho">Departamento</a></li>
-                <li><a href="#carrinho">Departamento</a></li>
-                <li><a href="#carrinho">Departamento</a></li>
-                <li><a href="#carrinho">Departamento</a></li>
-                <li><a href="#carrinho">Departamento</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
-
-<body>
+        </nav>
+    </header>
     <main>
         <div class="banner">
             <div class="banner-content">
@@ -80,7 +80,7 @@
 
 
 
-        <section class="carousel-container">
+        <div class="carousel-container">
 
             <h1 id="lancamentos">Lançamentos</h1>
             <button class="btn prev" onclick="moveCarousel(-1)">&#10094;</button>
@@ -245,261 +245,273 @@
 
             </div>
             <button class="btn next" onclick="moveCarousel(1)">&#10095;</button>
-            
-        </section>
 
-        <section class="banner2-content">
-            <div>
-                <img src="./img/canecaAmostra.png" sizes="10px" alt="">
-            </div>
-            <div class="banner2-text">
-                <h2>LOREM IPSUM DOLOR</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat odit
-                    reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
-                    cupiditate beatae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat odit
-                    reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
-                    cupiditate beatae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat odit
-                    reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
-                    cupiditate beatae.</p>
-            </div>
-        </section>
+            </section>
 
-        <section class="banner3-content">
-
-            <div class="circulo">
-                <img src="./img/Circulo e Icone.png" alt="">
-                <img src="./img/Circulo e Icone.png" alt="">
-                <img src="./img/Circulo e Icone.png" alt="">
-            </div>
-            <div class="banner3-text">
+            <section class="banner2-content">
                 <div>
-                    <h2>
-                        <h2>LOREM IPSUM DOLOR</h2>
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quod, doloribus commodi ut
-                        repellendus exercitationem nihil quo earum. Quod qui laboriosam laudantium, numquam reiciendis
-                        ratione voluptates ex eius doloremque cum.
-                    </p>
+                    <img src="./img/canecaAmostra.png" sizes="10px" alt="">
                 </div>
+                <div class="banner2-text">
+                    <h2>LOREM IPSUM DOLOR</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat
+                        odit
+                        reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
+                        cupiditate beatae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat
+                        odit
+                        reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
+                        cupiditate beatae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat
+                        odit
+                        reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
+                        cupiditate beatae.</p>
+                </div>
+            </section>
+
+            <section class="banner3-content">
+
+                <div class="circulo">
+                    <img src="./img/Circulo e Icone.png" alt="">
+                    <img src="./img/Circulo e Icone.png" alt="">
+                    <img src="./img/Circulo e Icone.png" alt="">
+                </div>
+                <div class="banner3-text">
+                    <div>
+                        <h2>
+                            <h2>LOREM IPSUM DOLOR</h2>
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quod, doloribus
+                            commodi ut
+                            repellendus exercitationem nihil quo earum. Quod qui laboriosam laudantium, numquam
+                            reiciendis
+                            ratione voluptates ex eius doloremque cum.
+                        </p>
+                    </div>
+                    <div>
+
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quod, doloribus
+                            commodi ut
+                            repellendus exercitationem nihil quo earum. Quod qui laboriosam laudantium, numquam
+                            reiciendis
+                            ratione voluptates ex eius doloremque cum.
+                        </p>
+                    </div>
+                    <div>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quod, doloribus
+                            commodi ut
+                            repellendus exercitationem nihil quo earum. Quod qui laboriosam laudantium, numquam
+                            reiciendis
+                            ratione voluptates ex eius doloremque cum.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="bannere-img">
+                    <img src="./img/canecaMao.png" alt="">
+                </div>
+
+            </section>
+            <section class="banner2-content">
                 <div>
+                    <img src="./img/canecaAmostra.png" sizes="10px" alt="">
+                </div>
+                <div class="banner2-text">
+                    <h2>LOREM IPSUM DOLOR</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat
+                        odit
+                        reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
+                        cupiditate beatae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat
+                        odit
+                        reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
+                        cupiditate beatae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat
+                        odit
+                        reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
+                        cupiditate beatae.</p>
+                </div>
+            </section>
+            <section class="carousel-container">
 
+                <h1 id="lancamentos">Lançamentos</h1>
+                <button class="btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+                <div class="carousel" id="carousel1">
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quod, doloribus commodi ut
-                        repellendus exercitationem nihil quo earum. Quod qui laboriosam laudantium, numquam reiciendis
-                        ratione voluptates ex eius doloremque cum.
-                    </p>
-                </div>
-                <div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="./img/amostra.jpeg" alt="Produto">
+                        <div class="info">
+                            <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                            <span class="preco">R$ 100,00</span>
+                            <span class="desconto">10% OFF</span>
+                            <div class="preco-final">R$ 79,90</div>
+                            <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
+                            <a href="#" class="buton-card">Comprar</a>
+                        </div>
+                    </div>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quod, doloribus commodi ut
-                        repellendus exercitationem nihil quo earum. Quod qui laboriosam laudantium, numquam reiciendis
-                        ratione voluptates ex eius doloremque cum.
-                    </p>
                 </div>
+                <button class="btn next" onclick="moveCarousel(1)">&#10095;</button>
+            </section>
 
-            </div>
-            <div class="bannere-img">
-                <img src="./img/canecaMao.png" alt="">
-            </div>
-
-        </section>
-        <section class="banner2-content">
-            <div>
-                <img src="./img/canecaAmostra.png" sizes="10px" alt="">
-            </div>
-            <div class="banner2-text">
-                <h2>LOREM IPSUM DOLOR</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat odit
-                    reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
-                    cupiditate beatae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat odit
-                    reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
-                    cupiditate beatae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum inventore vero ad fugiat odit
-                    reprehenderit est saepe quo aut consequatur nostrum quod error tempore? Temporibus dolores dolor
-                    cupiditate beatae.</p>
-            </div>
-        </section>
-        <section class="carousel-container">
-
-            <h1 id="lancamentos">Lançamentos</h1>
-            <button class="btn prev" onclick="moveCarousel(-1)">&#10094;</button>
-            <div class="carousel" id="carousel1">
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
+            <section class="banner4">
+                <div id="banner4-text">
+                    <h1>Entre em contato conosco e verifique a disponibilidade para sua região!</h1>
                 </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <span class="novo">NOVO</span>
-                    <img src="./img/amostra.jpeg" alt="Produto">
-                    <div class="info">
-                        <h3>Lorem Ipsum Dolor Sit Amet</h3>
-                        <span class="preco">R$ 100,00</span>
-                        <span class="desconto">10% OFF</span>
-                        <div class="preco-final">R$ 79,90</div>
-                        <div class="parcelamento">Ou em até 10x de R$ 7,90</div>
-                        <a href="#" class="buton-card">Comprar</a>
-                    </div>
-                </div>
-
-            </div>
-            <button class="btn next" onclick="moveCarousel(1)">&#10095;</button>
-        </section>
-
-        <section class="banner4">
-            <div id="banner4-text">
-                <h1>Entre em contato conosco e verifique a disponibilidade para sua região!</h1>
-            </div>
 
 
 
-        </section>
+            </section>
 
 
     </main>
@@ -540,13 +552,13 @@
 
 
                         <a href="https://www.instagram.com/avantioficial_/" class="rodape-social-link"><img
-                               target="_blank" src="./img/icons_redes_sociais/instagram.png" alt="logo instagram"></a>
+                                target="_blank" src="./img/icons_redes_sociais/instagram.png" alt="logo instagram"></a>
                         <a href="#" class="rodape-social-link"><img src="./img/icons_redes_sociais/facebook.png"
-                              target="_blank"  alt=" logo facebook"></a>
+                                target="_blank" alt=" logo facebook"></a>
                         <a href="#" class="rodape-social-link"><img src="./img/icons_redes_sociais/Union 632.png"
-                             target="_blank"   alt="logo youtube"></a>
-                        <a href="https://www.tiktok.com/signup" class="rodape-social-link"><img src="./img/icons_redes_sociais/logo-tiktok-svgrepo-com.png"
-                                 alt="logo youtube"></a>
+                                target="_blank" alt="logo youtube"></a>
+                        <a href="https://www.tiktok.com/signup" class="rodape-social-link"><img
+                                src="./img/icons_redes_sociais/logo-tiktok-svgrepo-com.png" alt="logo youtube"></a>
                     </div>
 
 
@@ -599,7 +611,7 @@
 
             <div class="pagaments">
 
-                <img src="./img/icons_pagamentos/União 34.png" alt="logo amex">]
+                <img src="./img/icons_pagamentos/União 34.png" alt="logo amex">
                 <img src="./img/icons_pagamentos/União 32.png" alt="logo master card">
                 <img src="./img/icons_pagamentos/visa.png" alt="logo visa card">
                 <img src="./img/icons_pagamentos/Caminho 19362.png" alt="logo hipercard">
@@ -611,7 +623,30 @@
                     alt="icone de boleto">
             </div>
         </section>
+
     </footer>
+    <div class="parceiros-rodape">
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                dolore te feugait nulla facilisi.
+            </p>
+
+        </div>
+
+        <div>
+            <img src="./img/icons_parceiros/a.png" alt=" logo let's code">
+            <img src="./img/icons_parceiros/vtex-pci-200.png" alt=" logo vtex">
+            <img src="./img/icons_parceiros/Grupo 21089.png" alt="logo avanti">
+            <img src="./img/icons_parceiros/vtex-logo.png" alt="logo vertex">
+
+
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 

@@ -36,6 +36,8 @@ ul.rodape-lista {
     align-content: flex-end;
     justify-content: center;
     align-items: center;
+    gap: 3%;
+    
 }
 
 .rodape-marca {
@@ -54,5 +56,17 @@ ul.rodape-lista {
     padding-top: 20%;
 }
 
-@media (max-width: 768px) {
-/*******  b02da73d-8124-4b3d-8762-1db0b0bbce3c  *******/y
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.formas-pagamento {
+  margin-bottom: 20px; 
+}
+
+.institucional {
+  font-size: 14px;
+  color: #666;
+}
