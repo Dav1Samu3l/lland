@@ -30,15 +30,26 @@
 
 .btn {
     position: absolute;
-    top: 50%;
+    top: 51%;
     transform: translateY(-50%);
-    background: var(--cor-preto);
-    color: var(--cor-branco);
+    background: transparent;
     border: none;
     padding: 10px;
     cursor: pointer;
     z-index: 10;
 }
+.btn1 {
+    position: absolute;
+    top: 6%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
 
 .prev {
     left: 0;
