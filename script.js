@@ -16,3 +16,14 @@ function moveCarousel(direction) {
 
 
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger-menu');
+    const menus = document.querySelectorAll('.menu, #menu-2');
+    
+    hamburger.addEventListener('click', function() {
+        menus.forEach(menu => {
+            menu.classList.toggle('active');
+        });
+    });
+});
